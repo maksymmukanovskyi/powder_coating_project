@@ -18,10 +18,10 @@
   "author": "Max",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^4.7.16",
+    "babel-core": "^6.26.3",
     "babel-loader": "^9.1.0",
     "babel-preset-env": "^1.7.0",
-    "css-loader": "^6.7.2",
+    "css-loader": "^6.7.3",
     "file-loader": "^6.2.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",

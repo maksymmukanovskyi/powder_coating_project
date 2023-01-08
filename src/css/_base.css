@@ -1,3 +1,40 @@
+/*
+--01 Typography system
+
+Font sizes (px)
+10/12/14/16/18/20/24/30/36/44/52/62/74
+
+Font weights:
+Default: 400
+Line height: 
+Default: 1
+
+
+
+
+
+--02 Colours
+
+Primary: #740074
+illusion purple powder coat
+
+Tints:
+Shades:
+Accents:
+Greys:
+#555
+
+--05 Shadows
+
+
+--06 Border-radius
+
+--07 Whitespace
+Spacing system (px)
+2/4/8/12/16/24/32/48/64/80/96
+
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -5,4 +42,15 @@
 }
 h1 {
   color: red;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #555;
 }

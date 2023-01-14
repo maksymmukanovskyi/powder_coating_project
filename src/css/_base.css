@@ -49,8 +49,80 @@ html {
 }
 
 body {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   line-height: 1.6;
   color: #555;
+}
+
+.section-header {
+  background-color: rgb(255, 236, 200);
+  padding: 9.6rem 0;
+}
+
+.container {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  gap: 9.6rem;
+  /* background-color: rgba(78, 0, 151, 0.465); */
+  align-items: center;
+}
+
+.header-img {
+  width: 100%;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.header-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+  padding: 1.6rem 3.2rem;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #e67e22;
+  font-size: 2rem;
+  border-radius: 9px;
+  transition: background-color 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #d6741f;
+}
+
+.btn--outlline:link,
+.btn--outlline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--outlline:hover,
+.btn--outlline:active {
+  background-color: #fdf2e9;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
 }

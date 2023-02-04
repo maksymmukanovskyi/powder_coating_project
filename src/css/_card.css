@@ -1,3 +1,12 @@
+.info {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.info-content {
+  padding: 3.2rem;
+}
 .automotive-img {
   width: 100%;
   filter: brightness(1%);
@@ -23,4 +32,32 @@
 
 .prod-attribute {
   font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.service-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: rgb(32, 0, 211);
+}
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+}
+.tag--industrial {
+  background-color: rgb(129, 255, 51);
+}
+
+.tag--automotive {
+  background-color: rgb(197, 255, 51);
+}
+
+.tag--architectural {
+  background-color: rgb(255, 187, 51);
 }
